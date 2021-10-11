@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0px 0px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    color: #666666;
+    color: black;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 .top-bar {
-    max-width: 1000px;
+    max-width: 1200px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +38,7 @@ body {
     font-size: 20px; 
     float: right;
     margin-right: 20px;
+    color: black;
 }
 
 .top-menu li {
@@ -46,7 +47,7 @@ body {
 
 .top-menu li a:link, .top-menu li a:visited {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 20px 20px 20.5px 20px;
 }
 
@@ -73,7 +74,7 @@ body {
 }
 
 .main-section h1, .main-section h2 {
-    color: black;
+    color: gold;
 }
 
 .main-section figure, .main-section img {
@@ -89,15 +90,21 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#3f3c3c;
+    background-color:dimgray;
 }
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: white;
+    color: gold;
 }
 
 .footer-content a:link {
-    color: white;
-    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+}
+
+.list {
+text-decoration: underline;
+text-decoration-style: solid;
+color: black
 }
